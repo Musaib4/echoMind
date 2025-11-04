@@ -18,7 +18,7 @@ def speak(text):
     engine.say(text)    
     engine.runAndWait()
 
-speak("initializing echoMind....")
+speak("initializing kalkharaab jawabb....")
 
 def processCommand(c):
     if "google" in c.lower():

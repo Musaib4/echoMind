@@ -16,7 +16,7 @@ def main():
             hey = "get active buddy"
             if m.difflib.get_close_matches(word.strip().lower(), [hey.lower()], n=1, cutoff=0.7):
              print("Trigger word detected!")  # Debug print
-            speak("hello buddy what can i do for you")
+            speak("wansa kyah madad karay chya ba")
             with m.sr.Microphone() as source:
                 print("listening for command...")
                 audio = r.listen(source)
